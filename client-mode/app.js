@@ -105,4 +105,7 @@ function main() {
     });
 }
 
-main();
+// 5分钟一次
+setInterval(()=> {
+    main();
+}, 5*60*1000);
